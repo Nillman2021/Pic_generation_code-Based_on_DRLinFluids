@@ -14,29 +14,29 @@ But what shoud care about is that, there should have the files in /env01(or /env
 ## 1 Generation_cfd_episode_info_Package ##
 which was uesd to generate one json file, in which total reward and No. of best episode till now will be shown.
 
-# 2 Pic_generation_fom_total_reward_10_envs_Package #
+## 2 Pic_generation_fom_total_reward_10_envs_Package ##
 which was used to generate 10+1 pics, in which the change of total reward among 10 env files was shown, and also, the pic of mean total reward among episodes was shown in the "1" another pic.
 
-# 3 Pic_generation_from_one_info_list_files_Package #
+## 3 Pic_generation_from_one_info_list_files_Package ##
 which was used to shown the reward data among trajectory in the episode (that we have mentioned before) that have the best total reward until now. But here we just use the "info_list_*"files in the /env01(or /env02 or /env03 ...)
 
-# 4 Pic_generation_for_all_info_list_files_Run #
+## 4 Pic_generation_for_all_info_list_files_Run ##
 which use all the three code mentioned before to generate picsss that what we need (or not). Let the code work and then we can plat BF1.
 
-# 5 Pic_generation_from_one_CFD_files_Macro_backup #
+## 5 Pic_generation_from_one_CFD_files_Macro_backup ##
 The mocro can be used to generate pics of phied C in the simulation case, but it should be edited everytime u generate pics of different cases, which is prcetty time-wasting.
 
-# 6 Multi_pic_generation_openfoam_with_paraview_Counter_line_Package #
+## 6 Multi_pic_generation_openfoam_with_paraview_Counter_line_Package ##
 This code can be used to generate pics automatically, maybe other guys in your research group have codes like this, so u can get it when u say:"Bro! help me!", but, people may not always be so lucky like that. So this codes can help u (but forgive me, this codes was kind of seems like noodles, u know that)
 
-# 7 Multi_pic_generation_openfoam_with_paraview_Counter_Package #
+## 7 Multi_pic_generation_openfoam_with_paraview_Counter_Package ##
 Just like #6, but this will generate different kind of pics.
 
-# 8 Multi_pic_generation_openfoam_with_paraview_Run #
+## 8 Multi_pic_generation_openfoam_with_paraview_Run ##
 uee above #6/7 codes to generate all pics in all your simulation files(like env01, env02, env03...)
 
-# 9 Pic2mkv_Package #
+## 9 Pic2mkv_Package ##
 transfer the pics generated in different times to videos, in fact u can done this process use paraview, but there may have 100 simulation cases, and I want play BF1 now.
 
-# 10 Pics2mkv2mkvs_Run #
+## 10 Pics2mkv2mkvs_Run ##
 combine the videos generated in #9 to 1 visdes, and there may show some infomation of different videos on the top, especially.
