@@ -39,4 +39,4 @@ uee above #6/7 codes to generate all pics in all your simulation files(like env0
 transfer the pics generated in different times to videos, in fact u can done this process use paraview, but there may have 100 simulation cases, and I want play BF1 now.
 
 #### 10 Pics2mkv2mkvs_Run ####
-combine the videos generated in #9 to 1 visdes, and there may show some infomation of different videos on the top, especially.
+combine the videos generated in #9 to 1 videos, and there may show some infomation of different videos on the top, especially.
