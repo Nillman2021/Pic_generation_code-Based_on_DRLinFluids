@@ -24,10 +24,10 @@ which was used to shown the reward data among trajectory in the episode (that we
 which use all the three code mentioned before to generate picsss that what we need (or not). Let the code work and then we can plat BF1.
 
 #### 5 Pic_generation_from_one_CFD_files_Macro_backup ####
-The mocro can be used to generate pics of phied C in the simulation case, but it should be edited everytime u generate pics of different cases, which is prcetty time-wasting.
+The mocro can be used to generate pics of phied C in the simulation case, but it should be edited everytime u generate pics of different cases, which is prcetty time-wasting. So u can use #6 to make it faster.
 
 #### 6 Multi_pic_generation_openfoam_with_paraview_Counter_line_Package ####
-This code can be used to generate pics automatically, maybe other guys in your research group have codes like this, so u can get it when u say:"Bro! help me!", but, people may not always be so lucky like that. So this codes can help u (but forgive me, this codes was kind of seems like noodles, u know that)
+This code can be used to generate pics automatically, rather than use Paraview-Macro mannully(one by one), maybe other guys in your research group have codes like this, so u can get it when u say:"Bro! help me!", but, people may not always be so lucky like that. So this codes can help u (but forgive me, this codes was kind of seems like noodles, u know that)
 
 #### 7 Multi_pic_generation_openfoam_with_paraview_Counter_Package ####
 Just like #6, but this will generate different kind of pics.
