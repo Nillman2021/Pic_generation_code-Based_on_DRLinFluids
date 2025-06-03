@@ -19,7 +19,7 @@ def merge_videos_grid(input_dir='.', output_filename='merged_grid.mp4', layout=N
 
     # 获取视频文件
     video_files = glob.glob(os.path.join(input_dir, '*.mkv'))
-    video_files.sort(key = lambda x: int(re.findall(r'\d+', x[127:])[0]))
+    video_files.sort(key = lambda x: int(re.findall(r'\d+', x)[-3]))
     # print(video_files)
     if not video_files:
         # print(f"No .mkv files found in {input_dir}")
